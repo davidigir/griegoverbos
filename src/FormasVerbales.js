@@ -12,7 +12,7 @@ export const didomi = {
         "3": { singular: "διδότω", plural: "διδόντων" }
       },
       subjuntivo: {
-        "1": { singular: "διδῶ", plural: "διδῶμεν" },
+        "1": { singular: "διδῶ", plural: "διδδομένωνῶμεν" },
         "2": { singular: "διδῷς", plural: "διδῶτε" },
         "3": { singular: "διδῷ", plural: "διδῶσι" }
       },
@@ -179,11 +179,186 @@ export const didomi = {
         "3": { singular: "ἐδεδώκει", plural: "ἐδεδώκεσαν" }
       }
     }
-  }
-};
+  },
+  media: {
+    // 🌿 Presente Medio
+    presente: {
+      indicativo: {
+        "1": { singular: "δίδομαι", plural: "διδόμεθα" },
+        "2": { singular: "δίδοσαι", plural: "δίδοσθε" },
+        "3": { singular: "δίδοται", plural: "δίδονται" }
+      },
+      imperativo: {
+        "1": { singular: "", plural: "" },
+        "2": { singular: "δίδοσο", plural: "δίδοσθε" },
+        "3": { singular: "διδόσθω", plural: "διδόσθων" }
+      },
+      subjuntivo: {
+        "1": { singular: "διδῶμαι", plural: "διδώμεθα" },
+        "2": { singular: "διδῷ", plural: "διδῶσθε" },
+        "3": { singular: "διδῶται", plural: "διδῶνται" }
+      },
+      optativo: {
+        "1": { singular: "διδοίμην", plural: "διδοίμεθα" },
+        "2": { singular: "δίδοιο", plural: "διδοῖσθε" },
+        "3": { singular: "δίδοιτο", plural: "διδοῖντο" }
+      },
+      infinitivo: "δίδοσθαι",
+      participio: {
+        masculino: {
+          nominativo: { singular: "διδόμενος", plural: "διδόμενοι" },
+          genitivo: { singular: "διδομένου", plural: "διδομένων" },
+          datativo: { singular: "διδομένῳ", plural: "διδομένοις" },
+          acusativo: { singular: "διδόμενον", plural: "διδομένους" }
+        },
+        femenino: {
+          nominativo: { singular: "διδομένη", plural: "διδόμεναι" },
+          genitivo: { singular: "διδομένης", plural: "διδομένων" },
+          datativo: { singular: "διδομένῃ", plural: "διδομέναις" },
+          acusativo: { singular: "διδομένην", plural: "διδομένας" }
+        },
+        neutro: {
+          nominativo: { singular: "διδόμενον", plural: "διδόμενα" },
+          genitivo: { singular: "διδομένου", plural: "διδομένων" },
+          datativo: { singular: "διδομένῳ", plural: "διδομένοις" },
+          acusativo: { singular: "διδόμενον", plural: "διδόμενα" }
+        }
+      }
+    },
 
+    // ⏳ Imperfecto Medio
+    imperfecto: {
+      indicativo: {
+        "1": { singular: "ἐδιδόμην", plural: "ἐδιδόμεθα" },
+        "2": { singular: "ἐδίδοσο", plural: "ἐδίδοσθε" },
+        "3": { singular: "ἐδίδοτο", plural: "ἐδίδοντο" }
+      }
+    },
 
-export const didomiPasivo = {
+    // 🔮 Futuro Medio
+    futuro: {
+      indicativo: {
+        "1": { singular: "δώσομαι", plural: "δωσόμεθα" },
+        "2": { singular: "δώσῃ", plural: "δώσεσθε" },
+        "3": { singular: "δώσεται", plural: "δώσονται" }
+      },
+      optativo: {
+        "1": { singular: "δωσοίμην", plural: "δωσοίμεθα" },
+        "2": { singular: "δώσοιο", plural: "δωσοῖσθε" },
+        "3": { singular: "δώσοιτο", plural: "δωσοῖντο" }
+      },
+      infinitivo: "δώσεσθαι",
+      participio: {
+        masculino: {
+          nominativo: { singular: "δωσόμενος", plural: "δωσόμενοι" },
+          genitivo: { singular: "δωσομένου", plural: "δωσομένων" },
+          datativo: { singular: "δωσομένῳ", plural: "δωσομένοις" },
+          acusativo: { singular: "δωσόμενον", plural: "δωσομένους" }
+        },
+        femenino: {
+          nominativo: { singular: "δωσομένη", plural: "δωσόμεναι" },
+          genitivo: { singular: "δωσομένης", plural: "δωσομένων" },
+          datativo: { singular: "δωσομένῃ", plural: "δωσομέναις" },
+          acusativo: { singular: "δωσομένην", plural: "δωσομένας" }
+        },
+        neutro: {
+          nominativo: { singular: "δωσόμενον", plural: "δωσόμενα" },
+          genitivo: { singular: "δωσομένου", plural: "δωσομένων" },
+          datativo: { singular: "δωσομένῳ", plural: "δωσομένοις" },
+          acusativo: { singular: "δωσόμενον", plural: "δωσόμενα" }
+        }
+      }
+    },
+
+    // ⚡ Aoristo Medio
+    aoristo: {
+      indicativo: {
+        "1": { singular: "ἐδόμην", plural: "ἐδόμεθα" },
+        "2": { singular: "ἔδου", plural: "ἔδοσθε" },
+        "3": { singular: "ἔδοτο", plural: "ἔδοντο" }
+      },
+      subjuntivo: {
+        "1": { singular: "δῶμαι", plural: "δῶμεθα" },
+        "2": { singular: "δῷ", plural: "δῶσθε" },
+        "3": { singular: "δῶται", plural: "δῶνται" }
+      },
+      optativo: {
+        "1": { singular: "δοίμην", plural: "δοίμεθα" },
+        "2": { singular: "δοῖο", plural: "δοῖσθε" },
+        "3": { singular: "δοῖτο", plural: "δοῖντο" }
+      },
+      infinitivo: "δόσθαι",
+      participio: {
+        masculino: {
+          nominativo: { singular: "δόμενος", plural: "δόμενοι" },
+          genitivo: { singular: "δομένου", plural: "δομένων" },
+          datativo: { singular: "δομένῳ", plural: "δομένοις" },
+          acusativo: { singular: "δόμενον", plural: "δομένους" }
+        },
+        femenino: {
+          nominativo: { singular: "δομένη", plural: "δόμεναι" },
+          genitivo: { singular: "δομένης", plural: "δομένων" },
+          datativo: { singular: "δομένῃ", plural: "δομέναις" },
+          acusativo: { singular: "δομένην", plural: "δομένας" }
+        },
+        neutro: {
+          nominativo: { singular: "δόμενον", plural: "δόμενα" },
+          genitivo: { singular: "δομένου", plural: "δομένων" },
+          datativo: { singular: "δομένῳ", plural: "δομένοις" },
+          acusativo: { singular: "δόμενον", plural: "δόμενα" }
+        }
+      }
+    },
+
+    // 💎 Perfecto Medio
+    perfecto: {
+      indicativo: {
+        "1": { singular: "δέδομαι", plural: "δεδόμεθα" },
+        "2": { singular: "δέδοσαι", plural: "δέδοσθε" },
+        "3": { singular: "δέδοται", plural: "δέδονται" }
+      },
+      subjuntivo: {
+        "1": { singular: "δεδῶμαι", plural: "δεδώμεθα" },
+        "2": { singular: "δεδῷ", plural: "δεδῶσθε" },
+        "3": { singular: "δεδῶται", plural: "δεδῶνται" }
+      },
+      optativo: {
+        "1": { singular: "δεδοίμην", plural: "δεδοίμεθα" },
+        "2": { singular: "δέδοιο", plural: "δεδοῖσθε" },
+        "3": { singular: "δέδοιτο", plural: "δεδοῖντο" }
+      },
+      infinitivo: "δέδοσθαι",
+      participio: {
+        masculino: {
+          nominativo: { singular: "δεδομένος", plural: "δεδομένοι" },
+          genitivo: { singular: "δεδομένου", plural: "δεδομένων" },
+          datativo: { singular: "δεδομένῳ", plural: "δεδομένοις" },
+          acusativo: { singular: "δεδομένον", plural: "δεδομένους" }
+        },
+        femenino: {
+          nominativo: { singular: "δεδομένη", plural: "δεδομέναι" },
+          genitivo: { singular: "δεδομένης", plural: "δεδομένων" },
+          datativo: { singular: "δεδομένῃ", plural: "δεδομέναις" },
+          acusativo: { singular: "δεδομένην", plural: "δεδομένας" }
+        },
+        neutro: {
+          nominativo: { singular: "δεδομένον", plural: "δεδομένα" },
+          genitivo: { singular: "δεδομένου", plural: "δεδομένων" },
+          datativo: { singular: "δεδομένῳ", plural: "δεδομένοις" },
+          acusativo: { singular: "δεδομένον", plural: "δεδομένα" }
+        }
+      }
+    },
+
+    // 🕰️ Pluscuamperfecto Medio
+    pluscuamperfecto: {
+      indicativo: {
+        "1": { singular: "ἐδεδόμην", plural: "ἐδεδόμεθα" },
+        "2": { singular: "ἐδέδοσο", plural: "ἐδέδοσθε" },
+        "3": { singular: "ἐδέδοτο", plural: "ἐδέδοντο" }
+      }
+    }
+  },
   pasivo: {
     // 🌿 Presente Pasivo / Medio
     presente: {
@@ -366,186 +541,13 @@ export const didomiPasivo = {
 };
 
 
+export const didomiPasivo = {
+  
+};
+
+
 
 
 export const didomiMedio = {
-  media: {
-    // 🌿 Presente Medio
-    presente: {
-      indicativo: {
-        "1": { singular: "δίδομαι", plural: "διδόμεθα" },
-        "2": { singular: "δίδοσαι", plural: "δίδοσθε" },
-        "3": { singular: "δίδοται", plural: "δίδονται" }
-      },
-      imperativo: {
-        "1": { singular: "", plural: "" },
-        "2": { singular: "δίδοσο", plural: "δίδοσθε" },
-        "3": { singular: "διδόσθω", plural: "διδόσθων" }
-      },
-      subjuntivo: {
-        "1": { singular: "διδῶμαι", plural: "διδώμεθα" },
-        "2": { singular: "διδῷ", plural: "διδῶσθε" },
-        "3": { singular: "διδῶται", plural: "διδῶνται" }
-      },
-      optativo: {
-        "1": { singular: "διδοίμην", plural: "διδοίμεθα" },
-        "2": { singular: "δίδοιο", plural: "διδοῖσθε" },
-        "3": { singular: "δίδοιτο", plural: "διδοῖντο" }
-      },
-      infinitivo: "δίδοσθαι",
-      participio: {
-        masculino: {
-          nominativo: { singular: "διδόμενος", plural: "διδόμενοι" },
-          genitivo: { singular: "διδομένου", plural: "διδομένων" },
-          datativo: { singular: "διδομένῳ", plural: "διδομένοις" },
-          acusativo: { singular: "διδόμενον", plural: "διδομένους" }
-        },
-        femenino: {
-          nominativo: { singular: "διδομένη", plural: "διδόμεναι" },
-          genitivo: { singular: "διδομένης", plural: "διδομένων" },
-          datativo: { singular: "διδομένῃ", plural: "διδομέναις" },
-          acusativo: { singular: "διδομένην", plural: "διδομένας" }
-        },
-        neutro: {
-          nominativo: { singular: "διδόμενον", plural: "διδόμενα" },
-          genitivo: { singular: "διδομένου", plural: "διδομένων" },
-          datativo: { singular: "διδομένῳ", plural: "διδομένοις" },
-          acusativo: { singular: "διδόμενον", plural: "διδόμενα" }
-        }
-      }
-    },
-
-    // ⏳ Imperfecto Medio
-    imperfecto: {
-      indicativo: {
-        "1": { singular: "ἐδιδόμην", plural: "ἐδιδόμεθα" },
-        "2": { singular: "ἐδίδοσο", plural: "ἐδίδοσθε" },
-        "3": { singular: "ἐδίδοτο", plural: "ἐδίδοντο" }
-      }
-    },
-
-    // 🔮 Futuro Medio
-    futuro: {
-      indicativo: {
-        "1": { singular: "δώσομαι", plural: "δωσόμεθα" },
-        "2": { singular: "δώσῃ", plural: "δώσεσθε" },
-        "3": { singular: "δώσεται", plural: "δώσονται" }
-      },
-      optativo: {
-        "1": { singular: "δωσοίμην", plural: "δωσοίμεθα" },
-        "2": { singular: "δώσοιο", plural: "δωσοῖσθε" },
-        "3": { singular: "δώσοιτο", plural: "δωσοῖντο" }
-      },
-      infinitivo: "δώσεσθαι",
-      participio: {
-        masculino: {
-          nominativo: { singular: "δωσόμενος", plural: "δωσόμενοι" },
-          genitivo: { singular: "δωσομένου", plural: "δωσομένων" },
-          datativo: { singular: "δωσομένῳ", plural: "δωσομένοις" },
-          acusativo: { singular: "δωσόμενον", plural: "δωσομένους" }
-        },
-        femenino: {
-          nominativo: { singular: "δωσομένη", plural: "δωσόμεναι" },
-          genitivo: { singular: "δωσομένης", plural: "δωσομένων" },
-          datativo: { singular: "δωσομένῃ", plural: "δωσομέναις" },
-          acusativo: { singular: "δωσομένην", plural: "δωσομένας" }
-        },
-        neutro: {
-          nominativo: { singular: "δωσόμενον", plural: "δωσόμενα" },
-          genitivo: { singular: "δωσομένου", plural: "δωσομένων" },
-          datativo: { singular: "δωσομένῳ", plural: "δωσομένοις" },
-          acusativo: { singular: "δωσόμενον", plural: "δωσόμενα" }
-        }
-      }
-    },
-
-    // ⚡ Aoristo Medio
-    aoristo: {
-      indicativo: {
-        "1": { singular: "ἐδόμην", plural: "ἐδόμεθα" },
-        "2": { singular: "ἔδου", plural: "ἔδοσθε" },
-        "3": { singular: "ἔδοτο", plural: "ἔδοντο" }
-      },
-      subjuntivo: {
-        "1": { singular: "δῶμαι", plural: "δῶμεθα" },
-        "2": { singular: "δῷ", plural: "δῶσθε" },
-        "3": { singular: "δῶται", plural: "δῶνται" }
-      },
-      optativo: {
-        "1": { singular: "δοίμην", plural: "δοίμεθα" },
-        "2": { singular: "δοῖο", plural: "δοῖσθε" },
-        "3": { singular: "δοῖτο", plural: "δοῖντο" }
-      },
-      infinitivo: "δόσθαι",
-      participio: {
-        masculino: {
-          nominativo: { singular: "δόμενος", plural: "δόμενοι" },
-          genitivo: { singular: "δομένου", plural: "δομένων" },
-          datativo: { singular: "δομένῳ", plural: "δομένοις" },
-          acusativo: { singular: "δόμενον", plural: "δομένους" }
-        },
-        femenino: {
-          nominativo: { singular: "δομένη", plural: "δόμεναι" },
-          genitivo: { singular: "δομένης", plural: "δομένων" },
-          datativo: { singular: "δομένῃ", plural: "δομέναις" },
-          acusativo: { singular: "δομένην", plural: "δομένας" }
-        },
-        neutro: {
-          nominativo: { singular: "δόμενον", plural: "δόμενα" },
-          genitivo: { singular: "δομένου", plural: "δομένων" },
-          datativo: { singular: "δομένῳ", plural: "δομένοις" },
-          acusativo: { singular: "δόμενον", plural: "δόμενα" }
-        }
-      }
-    },
-
-    // 💎 Perfecto Medio
-    perfecto: {
-      indicativo: {
-        "1": { singular: "δέδομαι", plural: "δεδόμεθα" },
-        "2": { singular: "δέδοσαι", plural: "δέδοσθε" },
-        "3": { singular: "δέδοται", plural: "δέδονται" }
-      },
-      subjuntivo: {
-        "1": { singular: "δεδῶμαι", plural: "δεδώμεθα" },
-        "2": { singular: "δεδῷ", plural: "δεδῶσθε" },
-        "3": { singular: "δεδῶται", plural: "δεδῶνται" }
-      },
-      optativo: {
-        "1": { singular: "δεδοίμην", plural: "δεδοίμεθα" },
-        "2": { singular: "δέδοιο", plural: "δεδοῖσθε" },
-        "3": { singular: "δέδοιτο", plural: "δεδοῖντο" }
-      },
-      infinitivo: "δέδοσθαι",
-      participio: {
-        masculino: {
-          nominativo: { singular: "δεδομένος", plural: "δεδομένοι" },
-          genitivo: { singular: "δεδομένου", plural: "δεδομένων" },
-          datativo: { singular: "δεδομένῳ", plural: "δεδομένοις" },
-          acusativo: { singular: "δεδομένον", plural: "δεδομένους" }
-        },
-        femenino: {
-          nominativo: { singular: "δεδομένη", plural: "δεδομέναι" },
-          genitivo: { singular: "δεδομένης", plural: "δεδομένων" },
-          datativo: { singular: "δεδομένῃ", plural: "δεδομέναις" },
-          acusativo: { singular: "δεδομένην", plural: "δεδομένας" }
-        },
-        neutro: {
-          nominativo: { singular: "δεδομένον", plural: "δεδομένα" },
-          genitivo: { singular: "δεδομένου", plural: "δεδομένων" },
-          datativo: { singular: "δεδομένῳ", plural: "δεδομένοις" },
-          acusativo: { singular: "δεδομένον", plural: "δεδομένα" }
-        }
-      }
-    },
-
-    // 🕰️ Pluscuamperfecto Medio
-    pluscuamperfecto: {
-      indicativo: {
-        "1": { singular: "ἐδεδόμην", plural: "ἐδεδόμεθα" },
-        "2": { singular: "ἐδέδοσο", plural: "ἐδέδοσθε" },
-        "3": { singular: "ἐδέδοτο", plural: "ἐδέδοντο" }
-      }
-    }
-  }
+  
 };
