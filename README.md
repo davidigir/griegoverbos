@@ -29,3 +29,7 @@ cd griego-app
 npm install
 3. Ejecuta el proyecto en modo desarrollo:
 npm start
+
+## Capturas
+
+<img width="974" height="766" alt="image" src="https://github.com/user-attachments/assets/8af1249e-c3d4-479f-8373-9960a8b412f8" />
